@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 
 
+
 app.get('/posts', (req , res) => {
     const posts = [
       {
@@ -20,9 +21,12 @@ app.get('/posts', (req , res) => {
     res.send(posts);
 });
 
-app.post('/posts', (req , res) => {
-const post = req.body;
-})
+// app.post('/posts', (req , res) => {
+// const postData = req.body;
+// res.status(200).send({
+//     message: 'Post created successfully'
+// });
+// });
 
 
 app.listen(3000, () => {
