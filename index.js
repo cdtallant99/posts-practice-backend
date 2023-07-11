@@ -20,6 +20,10 @@ app.get('/posts', (req , res) => {
     res.send(posts);
 });
 
+app.post('/posts', (req , res) => {
+const post = req.body;
+})
+
 
 app.listen(3000, () => {
     console.log('start server on port 3000')
