@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "2303-FTB-MT-WEB",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "expres": "^0.0.5",
+    "express": "^4.18.2"
+  }
 }
